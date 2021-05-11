@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="javax.persistence.Entity" />
+    </list>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/toeic-wed-war" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/toeic-core-dao-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/toeic-core-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/toeic-core-data/pom.xml" />
+        <option value="$PROJECT_DIR$/toeic-core-dto/pom.xml" />
+        <option value="$PROJECT_DIR$/toeic-core-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/toeic-core-service/pom.xml" />
+        <option value="$PROJECT_DIR$/toeic-core-utils/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK" />
+</project>

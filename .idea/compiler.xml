@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="toeic-core-service-impl1" />
+        <module name="toeic-core-data2" />
+        <module name="toeic-core-dao1" />
+        <module name="toeic-core-service1" />
+        <module name="toeic-core-common" />
+        <module name="toeic-wed-war" />
+        <module name="toeic-core-web1" />
+        <module name="toeic-wed-login" />
+        <module name="toeic-core-dao-impl1" />
+        <module name="toeic-core-dto1" />
+        <module name="toeic-core-utils1" />
+        <module name="toeic-core-peristence-data1" />
+        <module name="toeic-core-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="toeic-core-common" target="15" />
+      <module name="toeic-core-dao" target="15" />
+      <module name="toeic-core-dao-impl" target="15" />
+      <module name="toeic-core-dao-impl1" target="15" />
+      <module name="toeic-core-dao1" target="15" />
+      <module name="toeic-core-data1" target="15" />
+      <module name="toeic-core-data2" target="15" />
+      <module name="toeic-core-dto" target="15" />
+      <module name="toeic-core-dto1" target="15" />
+      <module name="toeic-core-peristence-data1" target="15" />
+      <module name="toeic-core-service" target="15" />
+      <module name="toeic-core-service-impl" target="15" />
+      <module name="toeic-core-service-impl1" target="15" />
+      <module name="toeic-core-service1" target="15" />
+      <module name="toeic-core-test" target="15" />
+      <module name="toeic-core-utils" target="15" />
+      <module name="toeic-core-utils1" target="15" />
+      <module name="toeic-core-web1" target="15" />
+      <module name="toeic-wed-login" target="15" />
+      <module name="toeic-wed-war" target="15" />
+      <module name="TopicDeployWed" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>TopicDeployWed</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>toeic-wed-login</module>
+        <module>toeic-wed-war</module>
+        <module>toeic-core-common</module>
+        <module>toeic-core-dao1</module>
+        <module>toeic-core-dao-impl1</module>
+        <module>toeic-core-peristence-data1</module>
+        <module>toeic-core-data2</module>
+        <module>toeic-core-dto1</module>
+        <module>toeic-core-service-impl1</module>
+        <module>toeic-core-service1</module>
+        <module>toeic-core-utils1</module>
+        <module>toeic-core-test</module>
+        <module>toeic-core-web1</module>
+    </modules>
+
+    <properties>
+        <servlet.api.version>2.3.1</servlet.api.version>
+        <jsp.api.version>2.3.1</jsp.api.version>
+        <hibernate.version>5.4.30.Final</hibernate.version>
+        <mysql.connector.version>8.0.24</mysql.connector.version>
+        <testng.version>7.4.0</testng.version>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.24</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.30.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+        </dependency>
+    </dependencies>
+
+</project>

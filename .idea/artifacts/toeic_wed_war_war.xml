@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="toeic-wed-war:war">
+    <output-path>$PROJECT_DIR$/toeic-wed-war/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>toeic-wed-war</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="toeic-wed-war-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="toeic-wed-war:war exploded" />
+    </root>
+  </artifact>
+</component>
